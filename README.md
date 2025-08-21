@@ -64,6 +64,25 @@ https://github.com/user-attachments/assets/871d19b8-2461-40d6-9d3b-f4c7233a27c5
 git clone https://github.com/your-username/streamtube.git
 cd streamtube
 
+### 2️⃣ Backend Setup
+
+  cd backend
+  npm install
+
+Create a .env file in the backend/ directory:
+
+  PORT=5000
+  MONGO_URI=your_mongodb_connection_string
+  JWT_SECRET=your_secret_key
+  CLOUDINARY_API_KEY=your_cloudinary_key
+  CLOUDINARY_API_SECRET=your_cloudinary_secret
+
+### 3️⃣ Frontend Setup
+
+  cd frontend
+  npm install
+  npm start
+---
 
 🤝 Contributing
 
@@ -77,7 +96,7 @@ cd streamtube
 
   - Open a pull request
 
-
+---
 📜 License
 
 MIT License © 2025
